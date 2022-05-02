@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <article class="card " id="cardRating">
+      <div class="card-tittle">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+      <div class="card-body">
+        <h2>How did we do?</h2>
+        <p> Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+        <div class="btns-Rating">
+          <button class="btn-rating">1</button>
+          <button class="btn-rating">2</button>
+          <button class="btn-rating">3</button>
+          <button class="btn-rating">4</button>
+          <button class="btn-rating">5</button>
+        </div>
+        <div class="rating-validatiion hide">
+          <h4>You have to select one Option</h4>
+        </div>
+
+        <button class="btn-submit">Submit</button>
+      </div>
+    </article>
+
+    <article class="card card-Thanks hide" id="cardThanks">
+      <img class="thanks_img" src="./images/illustration-thank-you.svg" alt="">
+      <div class="card-thanks-body">
+        <p class="selected-number"></p>
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+          touch!</p>
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Java script -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.rating-validatiion {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fb7413;
+}
+
+.container {
+  background-color: #121417;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 375px;
+  background: radial-gradient(circle at top, #252d37, #121417);
+}
+
+.card-tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background: #252d37;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: white;
+  margin-bottom: .5rem;
+}
+
+p {
+  color: #7c8798;
+}
+
+.btns-Rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.btn-rating {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  color: #7c8798;
+  background: #252d37;
+  font-weight: 700;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.btn-rating:hover {
+  background-color: #fb7413;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.thanks_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.selected-number {
+  display: inline-block;
+  background-color: #7c8798;
+  color: #fb7413;
+  padding: .5rem;
+  border-radius: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.active {
+  background-color: #959eac;
+}
+
+.hide {
+  display: none;
+}
+
+.btn-submit {
+  width: 100%;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  padding: .7rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #fb7413;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn-submit:hover {
+  background-color: white;
+  color: #fb7413;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.card-thanks-body {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
